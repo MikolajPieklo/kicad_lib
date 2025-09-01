@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "SFM27 Ø30mm Buzzer – Flange Mount")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
@@ -29,7 +30,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://p.globalsources.com/IMAGES/PDT/SPEC/822/K1192247822.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -42,11 +43,10 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "SFM27 Ø30mm Buzzer – Flange Mount"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "99045514-2cad-4a8a-9f98-48e256de9bd6")
 		(effects
 			(font
@@ -172,6 +172,103 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "c03bcac4-3b48-44f5-a04a-c31b9b94beaf")
+	)
+	(fp_line
+		(start -12.05 -9.25)
+		(end -2.95 -22.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8aff9a78-9c83-45e5-8272-324931f10780")
+	)
+	(fp_line
+		(start -2.957561 22.940617)
+		(end -12.086193 9.202657)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "42347ae8-e6a5-4a04-9df6-9d747b5bd7dd")
+	)
+	(fp_line
+		(start 12.05 -9.249998)
+		(end 2.95 -22.949998)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "605ea941-e368-44b1-b626-aa8fdcabec02")
+	)
+	(fp_line
+		(start 12.104134 9.179634)
+		(end 2.955714 22.942605)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b457cf43-e685-4acd-bee7-714b015f1d9d")
+	)
+	(fp_arc
+		(start -12.086194 9.202657)
+		(mid -15.190922 -0.029797)
+		(end -12.05 -9.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2cc9b27-5094-4073-a191-2c65fb7aff23")
+	)
+	(fp_arc
+		(start -2.95 -22.95)
+		(mid 0 -24.17193)
+		(end 2.95 -22.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f0115b1-e982-441e-9c56-80e8ba2067b0")
+	)
+	(fp_arc
+		(start 2.955714 22.942605)
+		(mid 0.002717 24.20081)
+		(end -2.951945 22.946519)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "01015e95-bd3c-4915-a150-effc79865324")
+	)
+	(fp_arc
+		(start 12.05 -9.249997)
+		(mid 15.211683 -0.044389)
+		(end 12.104136 9.179634)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "69625adb-b29e-423c-bc0c-f6ae3dd7cdd2")
+	)
+	(fp_text user "REF**"
+		(at 12 -13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "69744237-b66b-4386-b922-f215d69290af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "" np_thru_hole roundrect
 		(at 0 -20)
